@@ -1,0 +1,256 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Roboto Slab', serif!important;
+}
+.pad-10,.dr_item,from,nav{
+	padding:10px!important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 21px!important;
+    padding: 10px!important;
+    color: rgb(0 76 149);
+}
+a:hover{
+	background:transparent!important;
+	text-decoration:none!important;
+}
+a{
+	    font-size: 17px!important;
+		color:black!important;
+}
+p{
+	font-size: 17px;
+    line-height: 36px;
+    color: rgb(0 0 0 / 67%);
+	padding:10px!important;
+}
+header,footer{
+  background: linear-gradient(130deg,rgb(0 114 187),rgb(0 63 124));
+    color: rgb(255 255 255);
+	
+}
+
+.pad-10,.headerWidget>ul>li,nav{
+ padding:10px!important;
+}
+
+.headerWidget>ul>li>a{
+	color:white!important;
+	font-size: 15px;
+}
+.nav_item>ul>li>a{
+	  color: rgb(0 76 149)!important;
+
+    font-size: 15px!important;
+}
+nav{
+	position:sticky;
+	top:0px;
+	z-index:99999;
+	background-color:white;
+	box-shadow: 0px 10px 19px 1px #80808012;
+}
+.service_list,.dr_item{
+	background: rgb(255 255 255);
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 13px;
+	cursor: pointer;
+	border-bottom: 20px solid rgb(13 121 190);
+   
+}
+
+.service_list>ul>li>a{
+	color:black!important;
+}
+
+.logo{
+	width: 117px;
+    position: absolute;
+    top: -12px;
+    background: rgb(255 255 255);
+}
+
+article,.doctor,.treatment,footer,.popup{
+	padding:22px 0px;
+}
+
+.dr_item>.dr_img>img{
+	width: 100%!important;
+	height: 280px!important;
+}
+
+.dr_item,.service_list:hover {
+    background: linear-gradient(130deg,rgb(0 114 187),rgb(255 255 255));
+    color: rgb(255 255 255)!important;
+    transition: 0.4s;
+    box-shadow: 0px 51px 35px 15px #8080801c;
+    transform: translateY(-10px);
+
+}
+
+.specialist{
+	font-size:25px;
+}
+.dr_item>.dr_img>img{
+	border-radius:10px;
+}
+.plus{
+	
+font-size: 35px;
+position: absolute;
+bottom: 11px;
+right: 14px;
+padding: 10px;
+background: rgb(13 121 190);
+border-radius: 10% 0% 35% 10%;
+color: rgb(255 255 255);
+   
+
+}
+.plus>a{
+	color:white!important;
+}
+.my_slider{
+		
+		background: rgb(255 255 255);
+		width: 100%;
+		background: linear-gradient(130deg,rgb(0 114 187),rgb(255 255 255));
+		border-radius: 15px;
+		left: -1px;
+		z-index: -1;
+		padding: 10px;
+}
+
+
+
+.dr_item:hover .fa-user-md{
+transform: rotate3d(1, 1, 1, 359deg);
+	transition:0.4s;
+}
+.treatment_item>p{
+	 box-shadow: -21px 51px 35px 15px #8080800d;
+	 border-radius:10%;
+	 background: linear-gradient( 130deg ,rgb(0 114 187),rgb(255 255 255));
+    border-radius: 0% 4px 10px 10px;
+    color: rgb(255 255 255);
+}
+
+
+.banner{
+	background-image:url(../images/background.png) no-repeat right contain;
+	
+}
+.footer_item>ul>li>a,.footer_item01>ul>li>a{
+	color:white!important;
+	font-size:17px!important;
+}
+.banner_skin{
+	background-image:url(../images/skin_solution_dr_kalpana_luthra_from_luthra_hospital_bilaspur.png) no-repeat center contain;
+	
+}
+
+.treatment_item>img{
+	height: 192px!important;
+	width:100%;
+}
+.gallery_img>img{
+	margin:10px 0px;
+}
+.fa-bars{
+	display:none!important;
+}
+
+	.fa-close {
+    font-size: 24px;
+    position: fixed;
+    right: -2px;
+    top: 25px;
+    padding: 10px;
+    background: rgb(0 72 135);
+    border-radius: 28px;
+    z-index: 999999999999999;
+}
+
+
+
+
+	.popup{
+	background: linear-gradient(130deg,rgb(0 114 187),rgb(0 63 124));
+    color: rgb(255 255 255);
+    position: fixed;
+    top: 50px;
+   
+    overflow: scroll;
+    z-index: 999999999999;
+    
+    width: 100%;
+    box-shadow: 0px 18px 43px 71px #004d8d;
+    
+		
+	}
+	.name{
+		color:white;
+		font-size:20px;
+	}
+	.cont{
+		    position: absolute;
+    background: rgb(0 78 143 / 30%);
+    bottom: 0;
+    margin: 0 auto;
+    left: 50px;
+    right: 50px;
+    padding: 10px;
+	}
+	
+
+@media(max-width:1200px){
+	.nav_item{
+		position: absolute;
+		background: rgb(255 255 255);
+		padding: 10px 20px;
+		margin: 0px auto;
+		left: -14px;
+		right: -9px;
+		top: 34px;
+		display:none;
+	}
+.fa-bars{
+	display:block!important;
+   }
+
+
+    .logo {
+		width: 100%!important;
+		position: relative!important;
+		background: rgb(255 255 255);
+		backdrop-filter: blur(41px);
+		border-radius: 4%;
+		box-shadow: 5px 10px 16px 7px #69696908;
+
+  }
+  .dr_item>.dr_img>img,.treatment_item>img {
+    width: 100%!important;
+    height: auto!important;
+   }
+   .popup{
+		background: linear-gradient(130deg,rgb(0 114 187),rgb(0 63 124));
+		color: rgb(255 255 255);
+		position: fixed;
+		top: 50px;
+		bottom: 50px;
+		
+		overflow:scroll;
+		z-index: 999999999999;
+		width: 100%;
+		
+	}
+	
+	
+	
+}
